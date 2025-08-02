@@ -21,4 +21,33 @@ Check out the hosted version on GitHub Pages:
 - Font Awesome icons ready for future enhancements
 
 ## 📂 Project Structure
+
+stop-Watch/ ├── index.html # Main HTML file ├── index.js # Stopwatch logic ├── style.css # Custom styles ├── bootstrap.css/js # Bootstrap framework ├── mdb.css/js # Material Design Bootstrap ├── jquery & popper # JS dependencies └── README.md # Project overview
+
+## 🧠 How It Works
+
+- Uses `setInterval()` to increment a `count` every 10ms
+- Converts count into minutes, seconds, and milliseconds
+- Pads numbers with `.padStart()` for consistent formatting
+- Prevents multiple intervals using a `timerrunning` flag
+
+## 📦 Technologies Used
+
+- HTML5
+- CSS3
+- Bootstrap 4
+- MDB UI Kit
+- JavaScript (Vanilla)
+- jQuery & Popper.js
+
+## 💡 Future Enhancements
+
+- Add lap timer functionality
+- Save session durations
+- Include sound or animation effects
+- Use CDN links for faster loading
+
+## 🙌 Author
+
+Made with ❤️ by [seshasai077](https://github.com/seshasai077)
    
