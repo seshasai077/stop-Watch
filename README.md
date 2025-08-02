@@ -9,8 +9,8 @@ Check out the hosted version on GitHub Pages:
 
 ## 📸 Preview
 
-![Stopwatch UI](https://user-images.githubusercontent.com/your-screenshot-placeholder.png)  
-*(Add a screenshot of your app here for visual appeal)*
+<img width="1911" height="971" alt="Screenshot 2025-08-03 004002" src="https://github.com/user-attachments/assets/1780599d-2457-4791-9290-baaaffbfe15e" />
+
 
 ## 🛠️ Features
 
