@@ -40,12 +40,6 @@ stop-Watch/ ├── index.html # Main HTML file ├── index.js # Stopwatch
 - JavaScript (Vanilla)
 - jQuery & Popper.js
 
-## 💡 Future Enhancements
-
-- Add lap timer functionality
-- Save session durations
-- Include sound or animation effects
-- Use CDN links for faster loading
 
 ## 🙌 Author
 
