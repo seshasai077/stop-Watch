@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <title>STOP WATCH</title>
+    <style>
+       .btn{
+            border-radius: 50px;
+       }
+       .card{
+        box-shadow: 0 0 10px black;
+       }
+       body{
+          background-color: #212121;
+       }
+      
+        
+    
+</style>
+</head>
+<body>
+      
+   <!-- creating nav bar -->
+    <nav class="navbar-dark " style="background-color: #000000;">
+        <a href="#" class="navbar-brand p-3">STOP WATCH</a>
+    </nav>
+
+    <!--  card creation -->
+      <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8 m-auto">
+                <div class="card">
+                    <div class="card-header text-center  text-white" style="background-color: #212121;">
+                        <h1>STOP WATCH</h1>
+
+                    </div>
+                    <div class="card-body text-center fs-5">
+                        <h1 class="display-2">
+                        <span id="minutes">00</span>:
+                        <span id="seconds">00</span>:
+                        <span id="milliseconds">00</span>
+                        </h1>
+                        
+                        <button class="btn btn-success border-0 " id="start">START</button>
+                        <button class="btn btn-danger border-0" id="stop">stop</button>
+                        <button class="btn btn-warning border-0" id="reset">reset</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+      
+     <!-- bootstrap js files -->
+    <script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/mdb.js"></script>
+    <!-- locla js file -->
+    <script src="10-stopwatch.js"></script>
+</body>
+</html>
